@@ -1,0 +1,188 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../img/earth-field-10913.jpg");
+    background-size: cover;
+    background-color: #F5F7FA;
+}
+
+.upper-line{
+    display: flex;
+    width: 1200px;
+    height: auto;
+    background-color: rgba(30, 41, 57, 0.53);
+    margin: 50px auto 20px auto;
+}
+
+.about-site{
+}
+
+.site-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: #ffff;
+    margin: 25px auto 25px 50px;
+}
+
+.site-description{
+    font-style: normal;
+    font-weight: bold;
+    line-height: 17px;
+    font-size: 14px;
+    color: #ffff;
+    margin: 25px auto 35px 50px;
+}
+
+/*MAIN PAGE*/
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: auto auto 50px auto;
+    box-shadow: 6px 6px 20px #1E2939;
+}
+
+.main-content{
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: auto auto auto auto;
+    width: 900px;
+}
+
+.main-content-titles{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+/*sidebar section*/
+
+.sidebar-section{
+    background-color: rgba(30, 41, 57, 0.5);
+    width: 300px;
+    margin: 0 0 0 0;
+}
+
+.menu-section{
+    padding: 50px 0 0 40px;
+}
+
+.menu-section-titles{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.top-menu{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0 0 0 12px;
+}
+
+nav ul {
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+}
+
+.submenu {
+    z-index: 5;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(.5);
+    transition: 2s ease-in-out;
+}
+
+.topmenu > li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.menu-list{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0 0 0 12px;
+}
+
+.menu-item{
+    text-decoration: none;
+    padding: 0 0 0 0;
+    margin: 0 0 10px 0;
+}
+
+.links-to-pages{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 0 0 0;
+}
+
+.about-me{
+    margin: 0 0 0 0;
+}
+
+.about-me-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    color: #171515;
+    width: auto;
+    text-align: center;
+}
+
+.picture{
+    width: 370px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+/*PAGE ABOUT ACHIEVEMENTS*/
+
+.about-competition {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 50px;
+    color: #171515;
+    width: auto;
+    text-align: center;
+}
+
+.sign {
+    display: block; /* Выравнивание по правому краю */
+    border: 1px solid; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    background: #f0f0f0; /* Цвет фона */
+}
+
+.images-achievements{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+}
+
+.sign figcaption {
+    margin: 0 auto 5px; /* Отступы вокруг абзаца */
+}
+
+.images-achievements-caption{
+    text-align: center;
+}
+
+.group-item {
+    text-align: center;
+}
+.logo{
+    width: 20px;
+}
