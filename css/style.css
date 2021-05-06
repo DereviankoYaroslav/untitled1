@@ -195,7 +195,7 @@ body{
 .about-language-day{
     font-size: 18px;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     text-align: justify;
 }
 
@@ -235,13 +235,38 @@ body{
     font-size: 20px;
 }
 
+/*PAGE ABOUT HEROES DAY*/
+
+.about-heroes-day{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+}
+
+/*PAGE ABOUT FLAG DAY*/
+
+.about-flag-day{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+}
+
 /*PAGE ABOUT IDP DAY*/
 
 .about-independence-day{
     font-size: 18px;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
+}
+
+.about-independence-day-sec{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
 }
 
 /*PAGE ABOUT MEMORY DAY*/
@@ -250,4 +275,32 @@ body{
     font-style: normal;
     font-weight: bolder;
     font-size: 20px;
+}
+
+.about-memory-day{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+}
+
+/*PAGE ABOUT NATIONAL LANGUAGE*/
+.images-national-lang{
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+
+.about-national-language-day{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.images-national-lang-sec{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    text-align: center;
 }
