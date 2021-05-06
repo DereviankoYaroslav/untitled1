@@ -214,3 +214,23 @@ body{
     margin-right: auto;
     width: 750px;
 }
+
+/*PAGE ABOUT WISDOM*/
+
+.images-wisdom{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    text-align: center;
+}
+
+.images-wisdom-caption{
+    text-align: center;
+    font-size: 25px;
+}
+
+.images-wisdom-author{
+    text-align: right;
+    font-size: 20px;
+}
