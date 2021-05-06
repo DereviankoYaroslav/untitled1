@@ -184,3 +184,33 @@ body{
 .logo{
     width: 20px;
 }
+
+/*PAGE ABOUT LANGUAGE DAY*/
+
+
+.language-day{
+
+}
+
+.about-language-day{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.lang-day{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block; /* Выравнивание по правому краю */
+    border: 1px solid; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    background: #f0f0f0; /* Цвет фона */
+}
+
+.images-lang{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+}
