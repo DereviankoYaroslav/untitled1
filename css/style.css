@@ -1,6 +1,8 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-image: url("../img/earth-field-10913.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-color: #F5F7FA;
 }
@@ -368,4 +370,12 @@ body{
     font-weight: normal;
 }
 
+/*PAGE ABOUT HOLIDAYS*/
+
+.about-holidays{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
 
