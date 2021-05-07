@@ -348,7 +348,7 @@ body{
 .img-contacts-third{
     float: left;
     display: block;
-    width: 400px;
+    width: 300px;
 }
 
 .images-contacts{
@@ -357,6 +357,14 @@ body{
     height: 50px;
     padding-left: 25px;
     padding-top: 5px;
+}
+
+.images-contacts-sec{
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding-left: 25px;
+    padding-top: 0px;
 }
 
 .mail-link{
